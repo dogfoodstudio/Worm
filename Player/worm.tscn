@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbiaxwcjp38d8"]
+
+[ext_resource type="Script" uid="uid://dim622hgcqccu" path="res://Player/Worm.cs" id="1_g3vc3"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_skoi2"]
+
+[node name="Worm" type="Node3D"]
+script = ExtResource("1_g3vc3")
+
+[node name="Head" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment1" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment2" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment3" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment4" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment5" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment6" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment7" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment8" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")
+
+[node name="segment9" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_skoi2")

@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://6c140mwv7n0q"]
+
+[ext_resource type="PackedScene" uid="uid://dbiaxwcjp38d8" path="res://Player/worm.tscn" id="1_r150o"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Worm" parent="." instance=ExtResource("1_r150o")]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.756436, 0, -0.654068, 0, 1, 0, 0.654068, 0, 0.756436, -3.17662, -0.376938, 3.68054)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.626917, 0.779086, 0, -0.779086, 0.626917, 0, 26.3834, 34.0998)
